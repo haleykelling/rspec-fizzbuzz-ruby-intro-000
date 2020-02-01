@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 def fizzbuzz(number)
   number = gets.strip
-  if number / 3
+  if number % 3 == 0
     puts "Fizz"
   elsif condition
-     number / 5
+     number % 5 == 0
     puts "Buzz"
-  elsif number / 15
+  elsif number % 15 == 0
     puts "FizzBuzz"
   end
 end

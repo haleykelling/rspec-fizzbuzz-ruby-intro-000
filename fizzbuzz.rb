@@ -9,3 +9,4 @@ def fizzbuzz(number)
   elsif number / 15 == fixnum
     puts "FizzBuzz"
   end
+end
